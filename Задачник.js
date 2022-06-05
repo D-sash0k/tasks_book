@@ -124,10 +124,10 @@ console.log(maxProfit(prices2));
 
                 //////////купуємо акції і продаємо #2 (тепер иожна купляти і продавти не один раз)/////////////
 
-let prices1 = [7, 1, 5, 40, 60, 3, 6, 4]; // 62 -- найкраща вигода від купівлі  і продажі
- let prices2 = [7, 6, 4, 3]; // 0  
+ const prices1 = [7, 1, 5, 40, 60, 3, 6, 4]; // 62 -- найкраща вигода від купівлі  і продажі
+ const prices2 = [7, 6, 4, 3]; // 0  
  
- let maxProfit = function (prices) {
+ let maxProfit = function (prices){
    let result = 0;
 
   for (let i = 0; i < prices.length; i++) {
